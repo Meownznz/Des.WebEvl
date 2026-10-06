@@ -1,4 +1,4 @@
-/* Cabecera de perfil */
+/* Cabecera de perfil y avatar */
 .profile-box {
   display: flex;
   gap: 15px;
@@ -24,9 +24,17 @@
   font-size: 0.85rem;
   color: #ff6666;
   line-height: 1.4;
+  margin-top: 4px;
 }
 
-/* Tipografía de secciones */
+.user-sub {
+  font-size: 0.78rem;
+  color: #b54a4a;
+  line-height: 1.4;
+  margin-top: 2px;
+}
+
+/* Tipografía y estilos de secciones */
 .section-title {
   font-size: 0.95rem;
   margin-bottom: 6px;
@@ -39,27 +47,34 @@
 .section-text {
   font-size: 0.85rem;
   color: #b54a4a;
-  line-height: 1.35;
+  line-height: 1.4;
 }
 
-/* Etiquetas / Tags */
-.tag-list {
+.italic {
+  font-style: italic;
+  color: #cc2222;
+}
+
+/* Divisor con emojis/iconos */
+.divider-icons {
+  margin: 10px 0;
+  font-size: 0.95rem;
+  letter-spacing: 3px;
+}
+
+/* Lista de animes y personajes */
+.media-list {
   list-style: none;
-  font-size: 0.85rem;
-  color: #cc4444;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin-top: 5px;
+  font-size: 0.8rem;
+  color: #ff6666;
+  line-height: 1.6;
 }
 
-.tag-item {
-  background: #200505;
-  padding: 3px 8px;
-  border: 1px solid #5a0000;
+.media-list strong {
+  color: #ff1a1a;
 }
 
-/* Enlaces */
+/* Sección de enlaces */
 .links-section {
   text-align: center;
 }
@@ -67,7 +82,8 @@
 .links-container {
   display: flex;
   justify-content: center;
-  gap: 15px;
+  align-items: center;
+  gap: 12px;
   margin-top: 8px;
 }
 
@@ -82,4 +98,18 @@
 .social-link:hover {
   color: #ffffff;
   text-shadow: 0 0 8px #ff0000;
+}
+
+.credits-tag {
+  font-size: 0.75rem;
+  color: #661111;
+  margin-top: 10px;
+}
+
+/* Footer estilo Carrd */
+.carrd-footer {
+  text-align: center;
+  font-size: 0.75rem;
+  color: #550000;
+  margin-top: 5px;
 }
