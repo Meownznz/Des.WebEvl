@@ -1,0 +1,85 @@
+/* Cabecera de perfil */
+.profile-box {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.profile-box img {
+  width: 110px;
+  height: 110px;
+  object-fit: cover;
+  border: 1px solid #ff1a1a;
+  filter: grayscale(40%) contrast(120%) drop-shadow(0 0 5px #550000);
+}
+
+.user-title {
+  font-size: 1.6rem;
+  color: #ff1a1a;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.user-handle {
+  font-size: 0.85rem;
+  color: #ff6666;
+  line-height: 1.4;
+}
+
+/* Tipografía de secciones */
+.section-title {
+  font-size: 0.95rem;
+  margin-bottom: 6px;
+  color: #ff1a1a;
+  border-bottom: 1px solid #330000;
+  padding-bottom: 3px;
+  letter-spacing: 1px;
+}
+
+.section-text {
+  font-size: 0.85rem;
+  color: #b54a4a;
+  line-height: 1.35;
+}
+
+/* Etiquetas / Tags */
+.tag-list {
+  list-style: none;
+  font-size: 0.85rem;
+  color: #cc4444;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 5px;
+}
+
+.tag-item {
+  background: #200505;
+  padding: 3px 8px;
+  border: 1px solid #5a0000;
+}
+
+/* Enlaces */
+.links-section {
+  text-align: center;
+}
+
+.links-container {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 8px;
+}
+
+.social-link {
+  color: #ff4d4d;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+}
+
+.social-link:hover {
+  color: #ffffff;
+  text-shadow: 0 0 8px #ff0000;
+}

@@ -1,0 +1,31 @@
+/* Tarjeta principal estilo Carrd */
+.main-card {
+  background: #0d0d0d;
+  border: 1px solid #7a0000;
+  box-shadow: 0 0 15px rgba(255, 0, 0, 0.15);
+  width: 100%;
+  max-width: 480px;
+  padding: 25px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+/* Barra superior de estado */
+.card-header {
+  border-bottom: 1px dashed #7a0000;
+  padding-bottom: 8px;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  color: #aa1111;
+  text-transform: lowercase;
+}
+
+/* Cajas y secciones modulares */
+.info-section {
+  border: 1px solid #4a0000;
+  background: #120a0a;
+  padding: 12px;
+  border-radius: 2px;
+}

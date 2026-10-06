@@ -1,0 +1,20 @@
+/* Reseteo general */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Fondo oscuro con textura y tipografía monospace */
+body {
+  background-color: #080808;
+  background-image: radial-gradient(#200000 15%, transparent 16%);
+  background-size: 24px 24px;
+  color: #ff3333;
+  font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
